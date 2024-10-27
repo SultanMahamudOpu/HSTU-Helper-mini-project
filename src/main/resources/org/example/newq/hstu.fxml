@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="632.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.newq.Hstu">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <ImageView fitHeight="262.0" fitWidth="850.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../hstu_main_gate.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets left="30.0" right="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <TextArea fx:id="textArea" prefHeight="500.0" prefWidth="850.0" style="-fx-background-color: #ABB2B9;" text="Hajee Mohammad Danesh Science and Technology University is the first Science and Technology University in the northern region of Bangladesh. It stands away from the urban Dinajpur and bustle at a beautiful and scenic location some 13km north of Dinajpur town by the side of the intercity highway that links Dinajpur to Dhaka, the capital of Bangladesh. Hajee Mohammad Danesh Science and Technology University was established as an Agricultural Extension Training Institute (AETI) to award a three-year diploma in agriculture. The AETI was later upgraded to Hajee Mohammad Danesh Agricultural College in 1988 having an affiliation from the Bangladesh Agricultural University, Mymensingh. Then the college was upgraded to the status of a university renaming it as Hajee Mohammad Danesh Science and Technology University. First batch of the students were admitted at that time (1999-2000 session). The Act of the University was passed on 8 July 2001 in the Jatio Shongsad (National Assembly) was followed by a gazette notification on 8 April 2002.">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="10.0" />
+               </VBox.margin>
+            </TextArea>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

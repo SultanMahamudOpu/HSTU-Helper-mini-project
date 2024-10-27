@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.newq.Course">
+   <children>
+      <VBox layoutX="243.0" layoutY="100.0" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #85929E;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FACULTY OF COMPUTER SCIENCE AND ENGINEERING">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="32.0" right="32.0" top="70.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="COURSES">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="340.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="CSEButton" mnemonicParsing="false" onAction="#cseButtonOnAction" prefHeight="50.0" prefWidth="700.0" text="B.Sc. (Engineering) in Computer Science and Engineering">
+               <VBox.margin>
+                  <Insets left="70.0" top="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="ECEButton" mnemonicParsing="false" onAction="#eceButtonOnAction" prefHeight="50.0" prefWidth="700.0" text="B.Sc. (Engineering) in Electronic and Communication Engineering">
+               <VBox.margin>
+                  <Insets left="70.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="EEEButton" mnemonicParsing="false" onAction="#eeeButtonOnAction" prefHeight="50.0" prefWidth="700.0" text="B.Sc. (Engineering) in Electrical and Electronic Engineering">
+               <VBox.margin>
+                  <Insets left="70.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
